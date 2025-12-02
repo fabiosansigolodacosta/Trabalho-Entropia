@@ -7,7 +7,7 @@ import time
 # --- CONFIGURAÇÕES VISUAIS ---
 n_atomos = 9      
 n_movimentacoes = 2000  
-VELOCIDADE = 0.07      
+VELOCIDADE = 0.07 # Quanto maior a "VELOCIDADE" mais lento fica     
 
 tamanho_tanque = 9
 tamanho_ambiente = 25
@@ -198,3 +198,4 @@ for frame in range(movs_restantes):
 
 print("Fim da simulação.")
 wn.mainloop()
+
